@@ -7,24 +7,19 @@ import {
     DiReact,
     DiVisualstudio, DiMongodb
 } from "react-icons/di";
-import { SiExpress, SiRedux, SiYarn } from "react-icons/si";
+import { SiExpress, SiFirebase, SiRedux, SiYarn } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
 
 
 
 const SkillSection = () => {
 
-
-
-
     return (
         <div className='skill-container'>
 
-            <div className='skill-text'>
-                <h3>Skills</h3>
+            <div className='skill-text animate-charcter'>
+                <h1>Tools, i use to work</h1>
             </div>
-
-
             <div className='icons-container'>
                 <div className='skill-icons'>
                     <DiHtml5 />
@@ -86,7 +81,10 @@ const SkillSection = () => {
                     <DiVisualstudio />
                     <p>VsCode</p>
                 </div>
-
+                <div className='skill-icons'>
+                    <SiFirebase />
+                    <p>Firebase</p>
+                </div>
 
             </div>
         </div>

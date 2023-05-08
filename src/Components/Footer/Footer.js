@@ -1,10 +1,35 @@
 import React from 'react';
 import './Footer.css';
+import { FaFacebookSquare, FaLinkedinIn, } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
+
 
 const Footer = () => {
     return (
         <div>
-            <h1>footer</h1>
+            <div className='footer-container'>
+
+                <div className="footer-text animate-charcter">
+                    <h1>Get in touch</h1>
+
+
+                </div>
+                <div>
+                    <h5>
+                        <FiMail /> montasirazad@gmail.com
+                    </h5>
+                    <a href="">
+                        <FaFacebookSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
+                    </a>
+                    <a href="">
+                        <FaLinkedinIn style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
+                    </a>
+                </div>
+            </div>
+
+            <div className='footer-bottom'>
+                <p>© Montasir Azad {new Date().getFullYear()}</p>
+            </div>
         </div>
     );
 };
