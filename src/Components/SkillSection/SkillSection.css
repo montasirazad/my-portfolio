@@ -3,13 +3,13 @@
 }
 
 .skill-text{
-    border-right: 1px dotted seagreen;
+    border-right: 1px dotted slateblue;
     text-align: center;
     /* border-top: 1px solid seagreen; */
 }
 .icons-container {
     display: flex;
-    border-top: 1px dotted seagreen;
+    border-top: 1px dotted slateblue;
     flex-wrap: wrap;
     /* align-items: center; */
     justify-content: center;
@@ -25,9 +25,9 @@
     text-align: center;
     font-size: 60px;
     padding: 15px;
-    border: 1px solid seagreen;
+    border: 1px solid slateblue;
     margin: 30px;
-    color: seagreen;
+    color: slateblue;
      
 }
 
@@ -38,6 +38,6 @@
 
 .skill-icons:hover {
     color: white;
-    background-color: seagreen;
+    background-color: slateblue;
     
 }

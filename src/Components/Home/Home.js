@@ -4,6 +4,7 @@ import MainNav from '../MainNav/MainNav';
 import SkillSection from '../SkillSection/SkillSection';
 import './Home.css';
 import Project from '../Project/Project';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Banner />
             <SkillSection />
             <Project />
+            <Footer />
 
         </div>
     );
