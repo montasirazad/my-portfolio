@@ -1,0 +1,30 @@
+.client-container{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-gap: 50px;
+    /* 3 */
+    height: 250px;
+    /* margin: 30px; */
+    /* padding: 15px; */
+}
+
+.client-image img {
+    width:380px;
+    
+}
+
+.client-image{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.client-detail{
+    /* border: 1px solid blue; */
+    background-color: seagreen;
+    color: white;
+    padding: 16px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}

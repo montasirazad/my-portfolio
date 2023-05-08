@@ -1,0 +1,43 @@
+.skill-container{
+     
+}
+
+.skill-text{
+    border-right: 1px dotted seagreen;
+    text-align: center;
+    /* border-top: 1px solid seagreen; */
+}
+.icons-container {
+    display: flex;
+    border-top: 1px dotted seagreen;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    justify-content: center;
+}
+
+.skill-icons {
+    width: 140px;
+    height: 140px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    padding: 15px;
+    border: 1px solid seagreen;
+    margin: 30px;
+    color: seagreen;
+     
+}
+
+.skill-icons p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.skill-icons:hover {
+    color: white;
+    background-color: seagreen;
+    
+}
