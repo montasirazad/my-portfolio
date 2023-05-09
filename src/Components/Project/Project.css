@@ -1,6 +1,6 @@
 .client-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, auto);
     grid-gap: 30px;
     /* border: 1px solid red; */
     height: 250px;
@@ -30,4 +30,30 @@
     padding: 30px;
     border-bottom-right-radius: 30px;
 
+}
+
+@media screen and (max-width:600px) {
+    .client-container {
+        /* display: flex;
+        flex-wrap: wrap; */
+
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+
+    }
+
+    .client-image img {
+        width: 100%;
+
+    }
+
+    .client-detail {
+        /* border: 1px solid blue; */
+        background-color: slateblue;
+        color: white;
+        padding: 20px;
+        font-size: 5px;
+        border-bottom-right-radius: 30px;
+
+    }
 }

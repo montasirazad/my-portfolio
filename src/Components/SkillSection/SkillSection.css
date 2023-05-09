@@ -1,17 +1,17 @@
 .skill-container {
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .skill-text {
     text-align: center;
     width: 100%;
+
 }
 
 .icons-container {
     display: flex;
-    /* border-top: 1px dotted slateblue; */
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: center;
     justify-content: center;
 }
@@ -40,4 +40,56 @@
     color: white;
     background-color: slateblue;
 
+}
+
+@media screen and (max-width:600px) {
+
+    .skill-container {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        border: 1px solid red;
+    }
+
+    .skill-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .skill-text {
+        background-color: black;
+    }
+
+    .icons-container {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .skill-icons {
+        width: 100px;
+        height: 100px;
+        display: grid;
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 60px;
+        padding: 15px;
+        border: 1px solid slateblue;
+        margin: 30px;
+        color: slateblue;
+
+    }
+
+    .skill-icons p {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .skill-icons:hover {
+        color: white;
+        background-color: slateblue;
+
+    }
 }

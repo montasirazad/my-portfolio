@@ -8,13 +8,9 @@ const Banner = () => {
         <div className="banner-container">
 
 
-            <div className='banner-image-div box'>
+            <div className='banner-image-div'>
                 <img src={logoImg}
-                    style={{
-                        width: '200px',
 
-
-                    }}
                     alt="" />
             </div>
 
@@ -23,7 +19,7 @@ const Banner = () => {
                 <p className="animate-charcter">I'm Montasir Azad<br />
                     I live in Dhaka,Bangladesh <br /> I'm a MERN stack web developer</p>
                 <br />
-                <img src={mernLogo} style={{ width: '30%' }} alt="" />
+                <img src={mernLogo} alt="" />
             </div>
         </div>
     );

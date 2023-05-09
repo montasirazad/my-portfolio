@@ -18,10 +18,10 @@ const Footer = () => {
                     <h5>
                         <FiMail /> montasirazad@gmail.com
                     </h5>
-                    <a href="">
+                    <a href="https://www.facebook.com/montasir.azad/" target='_blank'>
                         <FaFacebookSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/montasir-azad-525094123/" target='_blank'>
                         <FaLinkedinIn style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
                     </a>
                 </div>

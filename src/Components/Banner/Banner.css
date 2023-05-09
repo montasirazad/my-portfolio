@@ -1,3 +1,30 @@
+.banner-container {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 50%);
+    padding: 10px;
+
+}
+
+.banner-text-div img {
+    width: 30%;
+}
+
+.banner-image-div {
+    text-align: center;
+
+}
+
+.banner-image-div img {
+    width: 200px;
+}
+
+.banner-container p {
+    font-size: 30px;
+}
+
+
 .animate-charcter {
     /* text-transform: uppercase; */
     background-image: linear-gradient(-225deg,
@@ -19,39 +46,6 @@
 
 }
 
-.banner-container {
-    background-image: url('../../image//banner-1.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    opacity: .8;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    grid-template-columns: repeat(2, 50%);
-    /* margin-top: 10px; */
-    margin-bottom: 80px;
-    height: 80vh;
-    padding: 10px;
-
-}
-
-.banner-text-div {
-    /* text-align: right; */
-    /* border: 2px solid black; */
-}
-
-.banner-image-div {
-    text-align: center;
-    margin-left: 200px;
-}
-
-.banner-container p {
-    font-size: 30px;
-}
-
-
-
-
 
 @keyframes textclip {
     to {
@@ -59,7 +53,7 @@
     }
 }
 
-@media screen and (max-width:600px) {}
+
 
 /* Photo frame css */
 
@@ -81,23 +75,6 @@
     inherits: true;
 }
 
-/* body {
-    font-family: Raleway, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 1rem;
-    background-color: rgba(10, 12, 18, 1);
-    color: white;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-p {
-    margin: 0;
-} */
 
 :root {
     --d: 2500ms;
@@ -160,4 +137,60 @@ p {
         --gradX: 50%;
         --gradY: 0%;
     }
+}
+
+
+@media screen and (max-width:800px) {
+
+    .animate-charcter {
+        /* text-transform: uppercase; */
+        background-image: linear-gradient(-225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                #fff800 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        /* text-fill-color: transparent; */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 3s linear infinite;
+        display: inline-block;
+        font-size: 30px;
+
+    }
+
+    .banner-image-div img {
+        margin-bottom: 10px;
+    }
+
+    .banner-container {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        align-items: center;
+        justify-content: center;
+        border: 1px solid blue;
+    }
+
+    .banner-image-div {
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .banner-text-div {
+        border: 1px solid red;
+        text-align: center;
+
+    }
+
+
+
+    .banner-container p {
+        font-size: 18px;
+    }
+
 }
