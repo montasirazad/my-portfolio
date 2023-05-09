@@ -15,7 +15,7 @@ import { BsFillBootstrapFill } from "react-icons/bs";
 const SkillSection = () => {
 
     return (
-        <div className='skill-container'>
+        <div className='skill-container' id='about'>
 
             <div className='skill-text animate-charcter'>
                 <h1>Tools, i use to work</h1>

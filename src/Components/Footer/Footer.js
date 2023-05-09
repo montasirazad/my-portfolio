@@ -7,7 +7,7 @@ import { FiMail } from "react-icons/fi";
 const Footer = () => {
     return (
         <div>
-            <div className='footer-container'>
+            <div className='footer-container' id='contact'>
 
                 <div className="footer-text animate-charcter">
                     <h1>Get in touch</h1>

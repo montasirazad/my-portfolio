@@ -172,7 +172,7 @@
         grid-template-columns: repeat(1, 100%);
         align-items: center;
         justify-content: center;
-        border: 1px solid blue;
+
     }
 
     .banner-image-div {
@@ -182,7 +182,6 @@
     }
 
     .banner-text-div {
-        border: 1px solid red;
         text-align: center;
 
     }

@@ -6,7 +6,7 @@ import { CgWebsite } from "react-icons/cg";
 
 const Project = () => {
     return (
-        <div className='client-container'>
+        <div className='client-container' id="project">
             <div className='client-detail'>
                 <h1> <FaHandshake /> Project, i Worked </h1>
                 <h5> <CgWebsite /> Website for dvantagepoint Limited</h5>
