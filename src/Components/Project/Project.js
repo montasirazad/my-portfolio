@@ -8,7 +8,7 @@ const Project = () => {
     return (
         <div className='client-container' id="project">
             <div className='client-detail'>
-                <h1> <FaHandshake /> Project, i Worked </h1>
+                <h1> <FaHandshake /> Project, i have Worked on</h1>
                 <h5> <CgWebsite /> Website for dvantagepoint Limited</h5>
                 <br />
                 <a href="https://dvantagepoint.com/" target='_blank'>

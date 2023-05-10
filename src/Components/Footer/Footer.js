@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebookSquare, FaLinkedinIn, } from "react-icons/fa";
+import { FaFacebookSquare, FaGithubSquare } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 
@@ -21,8 +21,8 @@ const Footer = () => {
                     <a href="https://www.facebook.com/montasir.azad/" target='_blank'>
                         <FaFacebookSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
                     </a>
-                    <a href="https://www.linkedin.com/in/montasir-azad-525094123/" target='_blank'>
-                        <FaLinkedinIn style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
+                    <a href="https://github.com/montasirazad" target='_blank'>
+                        <FaGithubSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none',color:'black' }} />
                     </a>
                 </div>
             </div>
