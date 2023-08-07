@@ -1,6 +1,6 @@
 import React from 'react';
 import './Banner.css';
-import logoImg from '../../image/dp-img.jpg';
+import logoImg from '../../image/profile-removebg.png';
 import mernLogo from '../../image/mern.png';
 
 const Banner = () => {
@@ -9,17 +9,15 @@ const Banner = () => {
 
 
             <div className='banner-image-div'>
-                <img src={logoImg}
-
-                    alt="" />
+                <img src={logoImg} alt="" />
             </div>
 
             <div className='banner-text-div'>
-                <h3 className="animate-charcter"> Hi..!</h3> <br />
-                <p className="animate-charcter">I'm Montasir Azad<br />
-                    I live in Dhaka,Bangladesh <br /> I'm a MERN stack web developer</p>
-                <br />
-                <img src={mernLogo} alt="" />
+                <p> Hello!</p>
+                <h1>I'm Montasir Azad</h1><br />
+                <p >    I live in Dhaka,Bangladesh .</p>
+                <p >I'm a MERN stack web developer .</p>
+
             </div>
         </div>
     );
