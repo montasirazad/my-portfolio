@@ -9,7 +9,7 @@ import Footer from '../Footer/Footer';
 const Home = () => {
     return (
         <div className='home-container'>
-            <MainNav />
+            {/* <MainNav /> */}
             <Banner />
             <SkillSection />
             <Project />
