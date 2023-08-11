@@ -3,22 +3,32 @@ import './Project.css';
 import client1 from '../../image/client1.PNG';
 import { FaAngleRight, FaHandshake } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
+import { Link } from 'react-router-dom';
+import genGenie from '../../image/GenGenie.png';
+import dvp_logo from '../../image/dvp_logo.png';
+
+// https://gengenie.io/
+// "https://dvantagepoint.com/"
 
 const Project = () => {
     return (
-        <div className='client-container' id="project">
-            <div className='client-detail'>
-                <h1> <FaHandshake /> Project, i have Worked on</h1>
-                <h5> <CgWebsite /> Website for dvantagepoint Limited</h5>
-                <br />
-                <a href="https://dvantagepoint.com/" target='_blank'>
-                    <button className='btn btn-danger'>Visit site <FaAngleRight /></button>
-                </a>
+        <div>
+            <div className="title-div">
+                <h1>Recent Projects I have worked on</h1>
             </div>
+            <div className='client-container' id="project">
+                <div className='client-card'>
+                    <img src={genGenie} alt="" />
+                    <p>I created the front end part of this project.</p>
+                    <Link target='_blank' to="https://gengenie.io"><button>Visit Site</button></Link>
+                </div>
 
-            <div className='client-image'>
-                <img src={client1} alt="" />
-            </div>
+                <div className='client-card'>
+                    <img src={dvp_logo} alt="" />
+                    <p>I created this portfolio website for Dvantagpoint Limited.</p>
+                    <Link target='_blank' to="https://dvantagepoint.com/"><button>Visit Site</button></Link>
+                </div>
+            </div >
         </div>
     );
 };

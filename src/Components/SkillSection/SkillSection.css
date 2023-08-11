@@ -1,3 +1,7 @@
+:root{
+    --main-color:lightblue
+}
+
 .skill-container {
     margin-bottom: 100px;
     margin-top: 50px;
@@ -25,9 +29,9 @@
     text-align: center;
     font-size: 60px;
     padding: 15px;
-    border: 1px solid slateblue;
+    border: 1px solid var(--main-color);
     margin: 30px;
-    color: slateblue;
+    color: cornflowerblue;
 
 }
 
@@ -38,7 +42,7 @@
 
 .skill-icons:hover {
     color: white;
-    background-color: #0f0c20;
+    background-color: var(--main-color);
 
 }
 
