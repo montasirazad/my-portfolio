@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { FaFacebookSquare, FaGithubSquare } from "react-icons/fa";
+import { FaFacebookSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 
@@ -11,8 +11,6 @@ const Footer = () => {
 
                 <div className="footer-text animate-charcter">
                     <h1>Get in touch</h1>
-
-
                 </div>
                 <div>
                     <h5>
@@ -22,7 +20,10 @@ const Footer = () => {
                         <FaFacebookSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none' }} />
                     </a>
                     <a href="https://github.com/montasirazad" target='_blank'>
-                        <FaGithubSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none',color:'black' }} />
+                        <FaGithubSquare style={{ fontSize: '40px', margin: '10px', textDecoration: 'none', color: 'black' }} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/montasir-azad-525094123/" target='_blank'>
+                        <FaLinkedin style={{ fontSize: '40px', margin: '10px', textDecoration: 'none', color: 'blue' }} />
                     </a>
                 </div>
             </div>

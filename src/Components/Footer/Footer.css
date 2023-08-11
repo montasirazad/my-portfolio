@@ -1,6 +1,10 @@
 .footer-container {
     margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
+    background-color: lightblue;
+    border-bottom: 1px solid cornflowerblue;
 
 }
 
@@ -9,12 +13,11 @@
 
 .footer-bottom {
     text-align: center;
-    color: white;
-    background-color: slateblue;
+    background-color: lightblue;
     margin-bottom: 0;
     height: 40px;
     padding: 10px;
-    margin-top: 35px;
+    
 }
 
 .footer-text {
@@ -23,7 +26,7 @@
 }
 
 .footer-text h1 {
-    font-size: 100px;
+     
     font-weight: 600;
 
 }
@@ -32,19 +35,6 @@
     .footer-container {
         margin-top: 150px;
         text-align: center;
-
-    }
-
-
-
-
-    .footer-bottom {
-        text-align: center;
-        color: white;
-        background-color: slateblue;
-        height: 40px;
-        padding: 10px;
-        margin-top: 35px;
     }
 
     .footer-text {
@@ -53,8 +43,8 @@
     }
 
     .footer-text h1 {
-        font-size: 70px;
-        font-weight: 600;
+        /* font-size: 70px;
+        font-weight: 600; */
 
     }
 }

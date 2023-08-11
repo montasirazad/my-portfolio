@@ -19,13 +19,13 @@ const Project = () => {
             <div className='client-container' id="project">
                 <div className='client-card'>
                     <img src={genGenie} alt="" />
-                    <p>I created the front end part of this project.</p>
+                    <p>I designed and created the front end part of this project.</p>
                     <Link target='_blank' to="https://gengenie.io"><button>Visit Site</button></Link>
                 </div>
 
                 <div className='client-card'>
                     <img src={dvp_logo} alt="" />
-                    <p>I created this portfolio website for Dvantagpoint Limited.</p>
+                    <p>I designed and created this portfolio website for Dvantagpoint Limited.</p>
                     <Link target='_blank' to="https://dvantagepoint.com/"><button>Visit Site</button></Link>
                 </div>
             </div >

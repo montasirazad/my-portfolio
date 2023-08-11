@@ -1,5 +1,5 @@
-:root{
-    --main-color:lightblue
+:root {
+    --main-color: cornflowerblue
 }
 
 .skill-container {
@@ -7,9 +7,36 @@
     margin-top: 50px;
 }
 
-.skill-text {
+
+
+.skill-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    width: 100%;
+}
+
+.skill-element h3 {
+    background-color: var(--main-color);
+    margin-left: 30px;
+    padding: 8px;
+    width: 95%;
+    font-size: 15px;
+}
+
+.icon-div {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skill-text h1 {
+    text-align: center;
+    font-size: 50px;
+    margin: 60px;
+    background: -webkit-linear-gradient(20deg, #053574, #049c50, rgb(9, 27, 226));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 
@@ -31,7 +58,7 @@
     padding: 15px;
     border: 1px solid var(--main-color);
     margin: 30px;
-    color: cornflowerblue;
+    color: var(--main-color);
 
 }
 
@@ -46,21 +73,20 @@
 
 }
 
+
+
+
+
 @media screen and (max-width:600px) {
 
     .skill-container {
         margin-top: 80px;
         margin-bottom: 100px;
-        
+
     }
 
-    .skill-text {
-        text-align: center;
-        width: 100%;
-    }
-
-    .skill-text {
-        background-color: black;
+    .skill-text h1 {
+        font-size: 20px;
     }
 
     .icons-container {
@@ -74,15 +100,14 @@
         width: 100px;
         height: 100px;
         display: grid;
-
         align-items: center;
         justify-content: center;
         text-align: center;
         font-size: 60px;
         padding: 15px;
-        border: 1px solid slateblue;
+        border: 1px solid var(--main-color);
         margin: 30px;
-        color: slateblue;
+        color: var(--main-color);
 
     }
 
@@ -93,7 +118,7 @@
 
     .skill-icons:hover {
         color: white;
-        background-color: slateblue;
+        background-color: var(--main-color);
 
     }
 }
